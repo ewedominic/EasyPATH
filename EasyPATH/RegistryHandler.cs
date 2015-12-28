@@ -8,16 +8,20 @@ namespace EasyPATH
     /// </summary>
     public class RegistryHandler
     {
-        // The root sub key of the new registry entry.
+        /// <summary>
+        /// The root sub key of the new registry entry.
+        /// </summary>
         private string root = @"*\shell\EasyPATH";
-        // The command sub key of the root registry entry.
+        /// <summary>
+        /// The command sub key of the root registry entry.
+        /// </summary>
         private string command = @"*\shell\EasyPATH\command";
 
         /// <summary>
         /// Adds a custom registry key to introduce a new context menu option upon right clicking.
         /// </summary>
         /// <param name="installPath">The path to EasyPATH.exe.</param>
-        /// <returns></returns>
+        /// <returns>Returns true if the key was added successfully, false otherwise.</returns>
         public bool addRegistryKey(string installPath)
         {
 
@@ -27,7 +31,7 @@ namespace EasyPATH
         /// <summary>
         /// Removes the custom registry key.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns true if the key was removed successfully, false otherwise.</returns>
         public bool removeRegistryKey()
         {
 
@@ -37,7 +41,7 @@ namespace EasyPATH
         /// <summary>
         /// Checks whether or not the custom registry key already exists.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns true if the key exists, false otherwise.</returns>
         private bool keyExists()
         {
 
