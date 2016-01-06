@@ -4,7 +4,7 @@ Adds a context menu option to the Windows Explorer to add the selected item to t
 
 ## Installation
 
-To install EasyPATH, just download and install the Installer.msi file.
+To install EasyPATH, just download and install the [Installer.msi](https://mega.nz/#!XJN20Apb!YUdMBv7TWXnN_cZY0ybtnVs39mwVZZ8fkNf69uy_TCo) file.
 
 ## Usage
 
