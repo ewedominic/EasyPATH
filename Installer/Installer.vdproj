@@ -43,6 +43,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,13 +75,21 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_274CFA913D30425CA49AE701AA89B58C"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_4991A1753D614467B525ADCA3C4142A3"
             {
             "Name" = "8:EasyPATH.exe"
             "Condition" = "8:"
@@ -75,7 +99,7 @@
             "Arguments" = "8:\"install\""
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_1F717936_BA0F_4394_A65D_1972480F11D9"
+            "Identifier" = "8:_55D35207_CE62_4920_AEE2_8FA0AF96CAD9"
             "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
@@ -204,7 +228,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EasyPATH"
         "ProductCode" = "8:{A2967AE2-E11B-4231-A602-6F7A59FACE88}"
-        "PackageCode" = "8:{5D959F4B-449B-4497-B822-62303AC48502}"
+        "PackageCode" = "8:{E96B28C3-0A43-44E9-8728-230E9B3A2A71}"
         "UpgradeCode" = "8:{59BAD12F-089D-4F14-902C-C937D03E36A3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -219,7 +243,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:harmonmi"
         "Keywords" = "8:Easy, Path, EasyPATH"
-        "ARPCOMMENTS" = "8:Adds a context menu option to the Windows Explorer to add the current folder or selected item to the system environment variables list (AKA PATH)."
+        "ARPCOMMENTS" = "8:Adds a context menu option to the Windows Explorer to add the selected item to the system environment variables list (AKA PATH)."
         "ARPURLINFOABOUT" = "8:https://github.com/harmonmi/"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"

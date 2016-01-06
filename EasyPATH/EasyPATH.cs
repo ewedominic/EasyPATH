@@ -37,6 +37,10 @@ namespace EasyPATH
             {
                 regHandler.addRegistryKey(installPath);
             }
+            else
+            {
+                regHandler.addEnvironmentVar(args[0]);
+            }
         }
     }
 }
